@@ -3,13 +3,13 @@
 GIT=`which git`
 TEMP_DIR="./temp"
 
-counter=0
+counter=10
 
 if [ -d "$TEMP_DIR" ]; then rm -Rf $TEMP_DIR; fi
 
 mkdir $TEMP_DIR
 
-while [ $counter -lt 3 ]
+while [ $counter -lt 1000 ]
 do
   branch_name="branch-$counter"
 
