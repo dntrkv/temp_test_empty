@@ -3,9 +3,9 @@
 GIT=`which git`
 TEMP_DIR="./temp"
 
-counter=3330
+counter=10001
 
-while [ $counter -lt 10000 ]
+while [ $counter -lt 100000 ]
 do
   branch_name="branch-$counter"
 
