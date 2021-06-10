@@ -3,7 +3,7 @@
 GIT=`which git`
 TEMP_DIR="./temp"
 
-counter=3271
+counter=3330
 
 while [ $counter -lt 10000 ]
 do
