@@ -3,7 +3,7 @@
 GIT=`which git`
 TEMP_DIR="./temp"
 
-counter=10001
+counter=11000
 
 while [ $counter -lt 100000 ]
 do
@@ -19,7 +19,6 @@ do
 
   ${GIT} add --all .
   ${GIT} commit -m "Test commit $counter"
-  ${GIT} push origin $branch_name
 
   counter=`expr $counter + 1`
 done
